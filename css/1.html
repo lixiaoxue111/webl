@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css</title>
+   <style>
+    .aa,p{
+     background:red;
+    }
+    #div1+p{
+        backgrond:blue;
+    }
+       a:hover{
+           color:gold;
+       }
+       a:active{
+           color:darkcyan;
+       }
+       #div5::{
+           width: 100px;
+           height:100px;
+           background:hotpink;
+       }
+       #div5::first-line{
+           color:chocolate;
+       }
+       #div6::after{
+           content:'yayya';
+           color:cyan;
+
+       }
+
+    </style>
+</head>
+<body>
+  <div id="div1">
+      jdhghghhh
+  </div>
+
+    <p>vfhhsjj</p>
+
+    <div id="div2">
+        jcfjdj
+    </div>
+
+    <ul>
+        <li>001</li>
+        <li class="aa">002</li>
+        <li class="aa">003</li>
+        <li>004</li>
+
+       <span>djjdd</span>
+        <div>
+            <span>hffh</span>
+        </div>
+
+        <div>
+            <p>
+                <span>hhhhh</span>
+            <p/>
+        </div>
+
+        <a href="#">click me</a>
+
+        <div id="div5">
+            djfhf hfsjk ghgggg hh
+        </div>
+        <div id="div6">
+            hjfj kfj jdbbb jgf
+        </div>
+
+</body>
+</html>
